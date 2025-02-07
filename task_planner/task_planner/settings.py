@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'task_planner.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'task_db',
-        'USER': 'postgres',
-        'PASSWORD': 'Likeaboss1265',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432',
     }
