@@ -36,9 +36,8 @@ CREATE USER task_user WITH PASSWORD 'password';
 Przyznaj odpowiednie uprawnienia:
 
 GRANT ALL PRIVILEGES ON DATABASE task_manager TO task_user;
-Wyjdź z PostgreSQL:
+Wyjdź z PostgreSQL
 
-\q
 5. Skonfiguruj połączenie z bazą danych
 W pliku settings.py aplikacji Django zmodyfikuj sekcję DATABASES, aby wskazać swoją bazę danych PostgreSQL:
 
